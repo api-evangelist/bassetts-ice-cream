@@ -1,0 +1,94 @@
+name: Bassetts Ice Cream Vocabulary
+description: |
+  Brand, product, channel, and operational vocabulary for Bassetts Ice Cream — a sixth-generation Philadelphia ice cream brand founded in 1861. There is no machine-readable API surface; this vocabulary captures the terms a downstream system (catalog, foodservice ordering, Naftiko governance agent, schema.org Organization record) would need to model the brand consistently.
+url: https://raw.githubusercontent.com/api-evangelist/bassetts-ice-cream/main/vocabulary/bassetts-ice-cream-vocabulary.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+
+brand:
+  - term: Bassetts Ice Cream
+    definition: Philadelphia ice cream brand, founded 1861 by Lewis Dubois Bassett; self-described "America's oldest ice cream brand."
+  - term: Lewis Dubois Bassett
+    definition: Quaker schoolteacher founder of Bassetts Ice Cream in 1861; great-great-grandfather of current CEO Michael Strange.
+  - term: Strange Family
+    definition: Current ownership lineage of Bassetts; descendants of the founder Bassett family, now in their sixth generation of stewardship.
+  - term: Sixth Generation
+    definition: Generational label for Eric Bassett and Alex Strange, the family members now active in the business.
+  - term: Reading Terminal Market
+    definition: Philadelphia public market at 45 N. 12th Street where Bassetts has operated a retail counter since the late 19th century.
+  - term: Mule Power
+    definition: Original ice cream churning method used in Bassetts' earliest batches, referenced in brand history.
+  - term: Rich In History — Richer In Flavor
+    definition: Bassetts' historical brand tagline.
+
+products:
+  - term: Classic Flavor
+    definition: Bassetts' core year-round flavor line including Vanilla, French Vanilla, Chocolate, Dark Chocolate.
+  - term: Premium Flavor
+    definition: Featured year-round flavors including Butterscotch Vanilla, Mint Chocolate Chip, Coffee, Peanut Butter Swirl, Moose Tracks, English Toffee Crunch, Salted Caramel Pretzel.
+  - term: Seasonal Flavor
+    definition: Limited-availability flavors such as Pumpkin (autumn) and fruit-forward varieties including Cherry Vanilla, Mango, Peach, Strawberry, Pistachio.
+  - term: Sorbet
+    definition: Dairy-free frozen dessert line — Lemon, Mango-Apricot, Raspberry.
+  - term: Novelty
+    definition: Frozen dessert formats beyond bulk, including ice cream bars and ice cream sandwiches.
+  - term: Pint
+    definition: Retail pint package, sold in 8-pack cases at wholesale and individually at retail / via Goldbelly.
+  - term: 2.5 Gallon Tub
+    definition: Bulk wholesale packaging used for foodservice and dipping parlor accounts.
+  - term: 3 Gallon Tub
+    definition: Bulk packaging used for third-party brands (Turkey Hill, Kemps, premium bulk) that Bassetts distributes.
+  - term: Madagascar Bourbon Vanilla
+    definition: Ingredient used in classic Vanilla flavor.
+  - term: Dutch Cocoa
+    definition: Ingredient used in classic Chocolate flavor.
+
+distribution_channels:
+  - term: Retail Counter
+    definition: Single-location storefront at Reading Terminal Market in Philadelphia.
+  - term: Direct Delivery
+    definition: Bassetts-operated wholesale delivery within a 40-mile radius of Philadelphia.
+  - term: Distributor Network
+    definition: Third-party distributors carrying Bassetts in Greater New York and Florida.
+  - term: International Export
+    definition: Cross-border distribution to China (since 2008), South Korea (since 2017), and Taiwan (since 2020).
+  - term: Goldbelly
+    definition: Third-party e-commerce platform used to ship Bassetts pints nationwide direct to consumers.
+  - term: Online Shop
+    definition: Wix-hosted ecommerce store for branded merchandise and direct orders.
+
+account_types:
+  - term: Restaurant
+    definition: Foodservice account type served by Bassetts wholesale.
+  - term: Dipping Parlor
+    definition: Ice cream shop / scoop shop account type.
+  - term: Country Club
+    definition: Hospitality account type.
+  - term: Hotel
+    definition: Hospitality account type.
+  - term: Supermarket
+    definition: Retail grocery account type.
+  - term: Caterer
+    definition: Event-services account type, also served by Bassetts' in-house catering division.
+
+distributed_brands:
+  - term: Turkey Hill Ice Cream
+    definition: Third-party brand distributed by Bassetts in 3-gallon tubs.
+  - term: Kemps Ice Cream
+    definition: Third-party brand distributed by Bassetts; Bassetts maintains a dedicated Kemps landing page.
+  - term: Georgeo's Italian Ices
+    definition: Italian ice product line distributed by Bassetts in 2.5-gallon tubs and 6 oz cups.
+
+operations:
+  - term: Catering Division
+    definition: Event-services arm of Bassetts, overseen by Eric Bassett (sixth generation).
+  - term: 40-Mile Delivery Radius
+    definition: Bassetts' direct wholesale-delivery service area, centered on Philadelphia.
+  - term: Want To Sell
+    definition: Onboarding pathway for new wholesale accounts.
+
+technology:
+  - term: Wix
+    definition: Website hosting and CMS platform powering bassettsicecream.com; the only "technology stack" disclosure on the public site.
+  - term: Public API
+    definition: Not available. Bassetts exposes no developer portal, no REST/GraphQL API, no documented webhooks, and no machine-readable product feed beyond the Wix-generated sitemap.

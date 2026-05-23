@@ -1,0 +1,131 @@
+name: Bassetts Ice Cream
+description: |
+  Bassetts Ice Cream is a Philadelphia ice cream brand founded in 1861 and self-described as "America's oldest ice cream brand." The company is family-owned across six generations of the Bassett / Strange family, retails out of a single counter at Reading Terminal Market in Center City Philadelphia, and operates a wholesale frozen-dessert distribution business serving restaurants, hotels, country clubs, dipping parlors, supermarkets, and caterers within a 40-mile radius of Philadelphia (with distributor partners in the New York metro and Florida). Bassetts also exports to China (since 2008), South Korea (2017), and Taiwan (2020), and ships pints nationwide via Goldbelly. The corporate office is at 1211 Chestnut Street, Suite 410, Philadelphia, PA. The bassettsicecream.com website is hosted on Wix and exposes no public API, no developer portal, and no machine-readable product catalog.
+url: https://raw.githubusercontent.com/api-evangelist/bassetts-ice-cream/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.18'
+tags:
+  - Ice Cream
+  - Frozen Desserts
+  - Consumer Packaged Goods
+  - Food And Beverage
+  - Philadelphia
+  - Reading Terminal Market
+  - Family Business
+  - Heritage Brand
+  - Wholesale Distribution
+  - Foodservice
+  - Catering
+  - Direct To Consumer
+apis: []
+common:
+  - type: Website
+    url: https://www.bassettsicecream.com
+  - type: About
+    url: https://www.bassettsicecream.com/about-1
+  - type: History
+    url: https://www.bassettsicecream.com/our-history-1
+  - type: Team
+    url: https://www.bassettsicecream.com/our-team
+  - type: TeamBios
+    url: https://www.bassettsicecream.com/team-bios
+  - type: RetailLocation
+    url: https://www.bassettsicecream.com/our-store
+  - type: FindUs
+    url: https://www.bassettsicecream.com/find-us
+  - type: FlavorGallery
+    url: https://www.bassettsicecream.com/flavor-gallery
+  - type: OnlineStore
+    url: https://www.bassettsicecream.com/bassetts-shop
+  - type: OrderOnline
+    url: https://www.bassettsicecream.com/orderonlinenow
+  - type: Catering
+    url: https://www.bassettsicecream.com/catering
+  - type: Wholesale
+    url: https://www.bassettsicecream.com/wholesale
+  - type: WholesaleProducts
+    url: https://www.bassettsicecream.com/wholesale-products-menu
+  - type: CurrentCustomers
+    url: https://www.bassettsicecream.com/current-customers
+  - type: International
+    url: https://www.bassettsicecream.com/international-1
+  - type: KempsIceCream
+    url: https://www.bassettsicecream.com/kemps-ice-cream
+  - type: WantToSell
+    url: https://www.bassettsicecream.com/want-to-sell
+  - type: InTheNews
+    url: https://www.bassettsicecream.com/in-the-news
+  - type: MediaGallery
+    url: https://www.bassettsicecream.com/media-gallery
+  - type: Blog
+    name: The Latest Scoop
+    url: https://www.bassettsicecream.com/latest-scoop
+  - type: SocialMedia
+    url: https://www.bassettsicecream.com/social-media
+  - type: FAQ
+    url: https://www.bassettsicecream.com/faq
+  - type: Contact
+    url: https://www.bassettsicecream.com/contact
+  - type: Email
+    name: Retail
+    url: mailto:ask@bassettsicecream.com
+  - type: Phone
+    name: Retail
+    url: tel:+12159254315
+  - type: Phone
+    name: Corporate
+    url: tel:+12158642771
+  - type: Phone
+    name: Corporate Toll Free
+    url: tel:+18889996314
+  - type: PhysicalAddress
+    name: Corporate Office
+    url: https://www.bassettsicecream.com/contact
+    data:
+      street: 1211 Chestnut Street, Suite 410
+      city: Philadelphia
+      state: PA
+      postalCode: '19107'
+      country: US
+  - type: PhysicalAddress
+    name: Reading Terminal Market Counter
+    url: https://www.bassettsicecream.com/our-store
+    data:
+      street: 45 N. 12th Street
+      city: Philadelphia
+      state: PA
+      postalCode: '19107'
+      country: US
+      hours: 9am-6pm daily
+  - type: Distributor
+    name: Goldbelly (Nationwide Shipping)
+    url: https://www.goldbelly.com
+  - type: Distributor
+    name: Beijing Sino-American Food Company (China)
+    url: https://www.bassettsicecream.com/international-1
+  - type: Distributor
+    name: Beigel Caffe / Mia & Steven Yoon (South Korea)
+    url: https://www.bassettsicecream.com/international-1
+  - type: Distributor
+    name: Mayfull Foods Corporation (Taiwan)
+    url: https://www.bassettsicecream.com/international-1
+  - type: SocialAccount
+    name: Facebook
+    url: https://www.facebook.com/bassettsicecream
+  - type: SocialAccount
+    name: Instagram
+    url: https://www.instagram.com/bassettsicecream
+  - type: SocialAccount
+    name: Twitter
+    url: https://twitter.com/bassettsicecrm
+  - type: SocialAccount
+    name: YouTube
+    url: https://www.youtube.com/user/bassettsicecream
+  - type: HostingPlatform
+    name: Wix
+    url: https://www.wix.com
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com

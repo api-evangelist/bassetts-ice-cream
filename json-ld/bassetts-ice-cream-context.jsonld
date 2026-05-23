@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "bassetts": "https://www.bassettsicecream.com/ns#",
+    "name": "https://schema.org/name",
+    "description": "https://schema.org/description",
+    "url": "https://schema.org/url",
+    "logo": "https://schema.org/logo",
+    "foundingDate": "https://schema.org/foundingDate",
+    "founder": "https://schema.org/founder",
+    "Person": "https://schema.org/Person",
+    "Organization": "https://schema.org/Organization",
+    "FoodEstablishment": "https://schema.org/FoodEstablishment",
+    "IceCreamShop": "https://schema.org/IceCreamShop",
+    "Product": "https://schema.org/Product",
+    "MenuItem": "https://schema.org/MenuItem",
+    "Brand": "https://schema.org/Brand",
+    "PostalAddress": "https://schema.org/PostalAddress",
+    "ContactPoint": "https://schema.org/ContactPoint",
+    "openingHours": "https://schema.org/openingHours",
+    "telephone": "https://schema.org/telephone",
+    "email": "https://schema.org/email",
+    "address": "https://schema.org/address",
+    "streetAddress": "https://schema.org/streetAddress",
+    "addressLocality": "https://schema.org/addressLocality",
+    "addressRegion": "https://schema.org/addressRegion",
+    "postalCode": "https://schema.org/postalCode",
+    "addressCountry": "https://schema.org/addressCountry",
+    "areaServed": "https://schema.org/areaServed",
+    "makesOffer": "https://schema.org/makesOffer",
+    "category": "https://schema.org/category",
+    "sameAs": "https://schema.org/sameAs",
+    "parentOrganization": "https://schema.org/parentOrganization",
+    "subOrganization": "https://schema.org/subOrganization",
+    "employee": "https://schema.org/employee",
+    "jobTitle": "https://schema.org/jobTitle"
+  },
+  "@graph": [
+    {
+      "@id": "https://www.bassettsicecream.com#org",
+      "@type": ["Organization", "Brand"],
+      "name": "Bassetts Ice Cream",
+      "description": "America's oldest ice cream brand, family-owned across six generations.",
+      "url": "https://www.bassettsicecream.com",
+      "foundingDate": "1861",
+      "founder": {
+        "@type": "Person",
+        "name": "Lewis Dubois Bassett"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1211 Chestnut Street, Suite 410",
+        "addressLocality": "Philadelphia",
+        "addressRegion": "PA",
+        "postalCode": "19107",
+        "addressCountry": "US"
+      },
+      "telephone": "+1-215-864-2771",
+      "areaServed": [
+        {"@type": "Place", "name": "Philadelphia 40-mile radius (direct delivery)"},
+        {"@type": "Place", "name": "Greater New York (via distributor)"},
+        {"@type": "Place", "name": "Florida (via distributor)"},
+        {"@type": "Place", "name": "China"},
+        {"@type": "Place", "name": "South Korea"},
+        {"@type": "Place", "name": "Taiwan"},
+        {"@type": "Place", "name": "United States (via Goldbelly)"}
+      ],
+      "sameAs": [
+        "https://www.facebook.com/bassettsicecream",
+        "https://www.instagram.com/bassettsicecream",
+        "https://twitter.com/bassettsicecrm",
+        "https://www.youtube.com/user/bassettsicecream"
+      ]
+    },
+    {
+      "@id": "https://www.bassettsicecream.com#retail-store",
+      "@type": "IceCreamShop",
+      "name": "Bassetts at Reading Terminal Market",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "45 N. 12th Street",
+        "addressLocality": "Philadelphia",
+        "addressRegion": "PA",
+        "postalCode": "19107",
+        "addressCountry": "US"
+      },
+      "telephone": "+1-215-925-4315",
+      "email": "ask@bassettsicecream.com",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "parentOrganization": {"@id": "https://www.bassettsicecream.com#org"}
+    }
+  ]
+}

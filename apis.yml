@@ -20,6 +20,8 @@ tags:
   - Direct To Consumer
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/bassetts-ice-cream-domain-security.yml
   - type: Website
     url: https://www.bassettsicecream.com
   - type: About

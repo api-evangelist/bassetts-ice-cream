@@ -1,3 +1,15 @@
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bassetts-ice-cream.png
 name: Bassetts Ice Cream
 description: |
   Bassetts Ice Cream is a Philadelphia ice cream brand founded in 1861 and self-described as "America's oldest ice cream brand." The company is family-owned across six generations of the Bassett / Strange family, retails out of a single counter at Reading Terminal Market in Center City Philadelphia, and operates a wholesale frozen-dessert distribution business serving restaurants, hotels, country clubs, dipping parlors, supermarkets, and caterers within a 40-mile radius of Philadelphia (with distributor partners in the New York metro and Florida). Bassetts also exports to China (since 2008), South Korea (2017), and Taiwan (2020), and ships pints nationwide via Goldbelly. The corporate office is at 1211 Chestnut Street, Suite 410, Philadelphia, PA. The bassettsicecream.com website is hosted on Wix and exposes no public API, no developer portal, and no machine-readable product catalog.

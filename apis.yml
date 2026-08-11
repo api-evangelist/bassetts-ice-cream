@@ -84,15 +84,6 @@ common:
   - type: Email
     name: Retail
     url: mailto:ask@bassettsicecream.com
-  - type: Phone
-    name: Retail
-    url: tel:+12159254315
-  - type: Phone
-    name: Corporate
-    url: tel:+12158642771
-  - type: Phone
-    name: Corporate Toll Free
-    url: tel:+18889996314
   - type: PhysicalAddress
     name: Corporate Office
     url: https://www.bassettsicecream.com/contact

@@ -64,75 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-API Evangelist profile of [Bassetts Ice Cream](https://www.bassettsicecream.com) — a sixth-generation Philadelphia ice cream brand founded in 1861, self-described as "America's oldest ice cream brand," operating a single retail counter at Reading Terminal Market plus a regional wholesale frozen-dessert distribution business and a small international export footprint (China, South Korea, Taiwan).
+Bassetts Ice Cream is a Philadelphia ice cream brand founded in 1861 and self-described as "America's oldest ice cream brand." The company is family-owned across six generations of the Bassett / Strange family, retails out of a single counter at Reading Terminal Market in Center City Philadelphia, and operates a wholesale frozen-dessert distribution business serving restaurants, hotels, country clubs, dipping parlors, supermarkets, and caterers within a 40-mile radius of Philadelphia (with distributor partners in the New York metro and Florida). Bassetts also exports to China (since 2008), South Korea (2017), and Taiwan (2020), and ships pints nationwide via Goldbelly. The corporate office is at 1211 Chestnut Street, Suite 410, Philadelphia, PA. The bassettsicecream.com website is hosted on Wix and exposes no public API, no developer portal, and no machine-readable product catalog.
 
-This is a tiny regional consumer packaged goods (CPG) brand. **There is no public API, no developer portal, no documented webhooks, and no machine-readable product feed.** This repository captures the brand, product surface, distribution channels, and contact surface as structured data so it can be referenced by API Evangelist network indexes and downstream Naftiko governance / catalog systems.
+**Areas:** Ice Cream · Frozen Desserts · Consumer Packaged Goods · Food and Beverage · Philadelphia · Reading Terminal Market · Family Business · Heritage Brand · Wholesale Distribution · Food Service · Catering · Direct to Consumer
 
-## Tier 3 — No APIs
+## Bassetts Ice Cream on APIs.io
 
-Classified `x-tier: 3` in the API Evangelist network registry with `x-tier-reason: no-apis`. The website is hosted on Wix; the only machine-readable surface is the Wix-generated `sitemap.xml`.
+Everything profiled for Bassetts Ice Cream is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bassetts-ice-cream/](https://apis.io/providers/bassetts-ice-cream/)** — or go straight to one of the APIs or properties below.
 
-## At a Glance
+### Published properties
 
-- **Founded:** 1861, by Lewis Dubois Bassett
-- **Current CEO:** Michael Strange, great-great-grandson of the founder
-- **Sixth generation:** Eric Bassett (operations, catering) and Alex Strange
-- **Retail:** Reading Terminal Market, 45 N. 12th Street, Philadelphia, PA — open 9am-6pm daily
-- **Corporate:** 1211 Chestnut Street, Suite 410, Philadelphia, PA 19107
-- **Direct wholesale radius:** 40 miles from Philadelphia
-- **Distributor regions:** Greater New York, Florida
-- **International:** China (since 2008), South Korea (since 2017), Taiwan (since 2020)
-- **Nationwide DTC:** via [Goldbelly](https://www.goldbelly.com)
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Product Surface
+#### JSON-LD (1)
 
-| Line | Examples |
+Linked-data contexts for the provider's vocabulary.
+
+- [Bassetts Ice Cream Context](https://apis.io/jsonld/bassetts-ice-cream/bassetts-ice-cream-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Bassetts Ice Cream Vocabulary](https://apis.io/vocabularies/bassetts-ice-cream/bassetts-ice-cream-vocabulary/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bassetts Ice Cream Domain Security](https://apis.io/security/bassetts-ice-cream/bassetts-ice-cream-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.bassettsicecream.com)
+- [Blog](https://www.bassettsicecream.com/latest-scoop)
+
+## API Evangelist rating
+
+**Kin Score 6.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| Classic flavors | Vanilla (Madagascar Bourbon), French Vanilla, Chocolate (Dutch cocoa), Dark Chocolate |
-| Premium flavors | Butterscotch Vanilla, Mint Chocolate Chip, Coffee, Peanut Butter Swirl, Moose Tracks, English Toffee Crunch, Salted Caramel Pretzel |
-| Seasonal / fruit | Pumpkin, Cherry Vanilla, Mango, Peach, Strawberry, Pistachio |
-| Sorbets | Lemon, Mango-Apricot, Raspberry |
-| Novelties | Ice cream bars, ice cream sandwiches |
-| Wholesale formats | 2.5-gallon tubs (Bassetts), 3-gallon tubs (Turkey Hill, Kemps, premium bulk), 8-pint cases, soft-serve 4 oz insulated cups |
-| Distributed third-party | Turkey Hill Ice Cream, Kemps Ice Cream, Georgeo's Italian Ices |
+| Discoverability | 48.2 |
+| Contract quality | 6.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
 
-## Account Types Served (Wholesale)
+**Agent readiness 0.0** — human-only
 
-Restaurants, dipping parlors, country clubs, hotels, supermarkets, caterers.
-
-## Repository Contents
-
-| Path | Purpose |
+| Agent-readiness dimension | Result |
 |---|---|
-| [`apis.yml`](apis.yml) | APIs.json 0.18 index — common properties only (website, retail, wholesale, catering, distributors, social, contact). `apis: []`. |
-| [`vocabulary/bassetts-ice-cream-vocabulary.yml`](vocabulary/bassetts-ice-cream-vocabulary.yml) | Brand, product, channel, account, and operational vocabulary. |
-| [`json-ld/bassetts-ice-cream-context.jsonld`](json-ld/bassetts-ice-cream-context.jsonld) | Schema.org JSON-LD context modeling Bassetts as an `Organization`/`Brand` plus the Reading Terminal Market `IceCreamShop`. |
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Artifacts Intentionally Absent
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
 
-| Artifact | Why absent |
-|---|---|
-| `openapi/` | No public HTTP API. |
-| `asyncapi/` | No public event/messaging surface. |
-| `capabilities/` | Nothing to compose — no API to call. |
-| `rules/` | No OpenAPI to lint. |
-| `json-schema/` / `json-structure/` | No machine-readable entity surface beyond what the JSON-LD context already names. |
-| `examples/` | No request/response payloads exist. |
-| `plans/` | No published pricing model — wholesale quoting is account-by-account; retail/Goldbelly pricing is unstructured. |
-| `rate-limits/` | No API. |
-| `finops/` | No API metering. |
-| `crd/` | No Kubernetes resources. |
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bassetts-ice-cream/](https://apis.io/providers/bassetts-ice-cream/).
 
-## Notable Sources
+## How this profile is made
 
-- Homepage and store info — <https://www.bassettsicecream.com>
-- History — <https://www.bassettsicecream.com/our-history-1>
-- About / ownership — <https://www.bassettsicecream.com/about-1>
-- Flavor gallery — <https://www.bassettsicecream.com/flavor-gallery>
-- Wholesale & products — <https://www.bassettsicecream.com/wholesale> · <https://www.bassettsicecream.com/wholesale-products-menu>
-- International distribution — <https://www.bassettsicecream.com/international-1>
-- Wix-generated sitemap — <https://www.bassettsicecream.com/sitemap.xml>
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Maintainer
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bassetts Ice Cream: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-[Kin Lane](https://apievangelist.com) — API Evangelist
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bassetts-ice-cream/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
